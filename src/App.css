@@ -91,9 +91,15 @@ button {
   background-color: #282c34;
   border: none;
 }
+
 button:hover {
   background-color: #4e5769ff;
 }
+
 button:active {
   background-color: #3c4961ff;
+}
+
+button:disabled {
+  background-color: #9299a5ff;
 }
